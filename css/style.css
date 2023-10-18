@@ -1,0 +1,113 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* =============Top Banner Section Started============= */
+.top-banner {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.text-area {
+    width: 40%;
+    margin-left: 7%;
+}
+
+.text-area h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text-area a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(lightsalmon, tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.color-text {
+    color: orange;
+}
+
+.img-area {
+    width: 40%;
+    margin-left: 7%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+/* =============Top Banner Section Ended============= */
+
+/* =============Dream Section Started============= */
+.dream-area {
+    margin-top: 150px;
+    display: flex;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-text {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.dream-p {
+    width: 90%;
+}
+
+/* =============Dream Section Ended============= */
+
+
+/* =============Experience Section Started============= */
+.Experience-area {
+    margin: 150px 0;
+}
+
+.Experience-area h1 {
+    font-size: 50px;
+}
+
+.experience-text-container {
+    display: flex;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.full-area {
+    width: 35%;
+    margin-left: 7%;
+    border-left: 7px solid tomato;
+    padding: 40px 20px;
+    box-shadow: 5px 10px 40px gray;
+}
+
+.experience-text-container h1 {
+    font-size: 34px;
+}
+
+.experience-text-container h3 {
+    color: orange;
+}
+
+.baby-area {
+    width: 35%;
+    margin-left: 5%;
+    border-left: 7px solid blue;
+    padding: 40px 20px;
+    box-shadow: 5px 10px 40px gray;
+}
+
+/* =============Experience Section Ended============= */
+
+/* =============Footer Section Started============= */
+footer p {
+    text-align: center;
+}
